@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: aquamarine;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background: darkslategrey;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color:white;
+    border-bottom: 3px solid darkolivegreen;
+    
+}
+
+nav{
+    background: lightseagreen;
+    height: 50px;
+    border-bottom: 1px solid black;    
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(80%-80px);
+    min-height: 500px;
+    background: lightblue;   
+    padding: 40px; 
+}
+
+.article{
+    color: darkslategrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+footer{
+    background:white;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+table{
+    background:rgb(186, 253, 255);
+    color: black;
+    line-height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid rgb(55, 73, 70);
+}
+
+MARQUEE{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid rgb(150, 255, 229);
+}
